@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color:#333}
+
+.header{width:90%;
+        height:40px;
+		background-color:#333;
+		margin:0px auto;}
+
+i{float:right;
+padding-right:10px;
+margin-top:4px;
+color:#FFF}
+
+i:hover{color:#09F}	
+
+p{position:absolute;
+  color:#FFF;
+  margin:4px 0px 0px 990px;
+  font-size:30px;
+  font-family:Gabriola}
+
+.real{width:220px;
+      height:90px;
+      background-color:#000;
+	  margin-left:200px;
+	  text-align:center;
+	  position:relative;
+	  z-index:999;
+	  }
+	  
+span{color:#00C;
+font-size:30px;
+font-family:Arial Black;
+position:relative;
+top:25px}
+
+.estate{color:#FFF;
+        font-size:30px;
+		font-family:Arial Black;}
+/*=============================================*/
+
+
+.pic{width:90%;
+height:400px;
+background-image:url(../pic/photo3.jpg);
+margin:0px auto;
+}
+
+
+.home-pic{width:70%;
+height:47px;
+background-color:rgba(33, 25, 22, 0.74);
+position:relative;
+top:350px;
+left:150px;
+overflow:hidden}
+
+.home-pic ul li{list-style:none;
+                float:left;
+				padding:10px;
+				color:#fff;
+				margin:-10px 45px 0px 0px;
+				font-size:20px}
+				
+.home{background-color:#039;}
+.home-pic ul li:hover{background-color:#039;}
+/*===============================================================*/
+
+.welcome{width:45%;
+min-height:220px;
+background-color:#333;
+margin-left:216px;
+float:left}
+
+#wel{color:#FFF;
+     font-size:24px;
+	 margin-left:10px;}
+	  
+
+h3{padding:10px;
+color:#09C}	
+
+/*==============================================================*/
+
+.find{width:30%;
+min-height:700px;
+float:right;
+margin-right:67px}
+
+.find h1{color:#FFF}
+/*==============================================================*/		  
+.room{position:absolute;
+      margin:0px 0px 0px 183px;
+	  }		  
+	  
+b{position:absolute; margin:-16px 0px 0px 181px;}
+
+
+.in{margin:20px 0px 0px 140px;
+     width:90px;
+	 background-color:#09c}
+/*==============================================================*/
+
+h5{font-size:32px;
+   color:#FFF;
+   text-decoration:underline}	 
+
+
+.map{width:360px}
+
+.map:hover{
+            box-shadow: 3px 1px 6px blue, -1px -1px 6px blue;
+            transition: all ease-in-out .3s;}	  
+	  
+/*==============================================================*/
+
+
+.pic3{width:607px;    
+    height: 440px;
+    background-color: #333;
+    position: relative;
+    top: 306px;
+    left: 216px;}
+	
+	
+.pic3 h1{position:absolute;
+	color:#FFF;
+	text-decoration:underline}	
+	
+	
+.pic3{-webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1.5s;
+  -webkit-animation-iteration-count: 1; }
+	
+	
+.img3{width:170px;
+      height:150px;
+	  float:left;
+	  padding:10px;
+	  position:relative;
+	  top:-250px}	
+	  
+  .img3:hover{box-shadow: 3px 1px 6px blue, -1px -1px 6px blue}
+	  
+.pic11{width:180px;
+height:220px;
+position:relative;
+top:-255px;
+float:left}
+
+.pic11 h2{color:#FFF;text-decoration:underline}
+
+.pic11 h3{word-wrap:break-word;
+          color:#000;
+		  text-align:left}
+		  
+.pic11 button{margin-left: 10px;
+              background-color: #09c;
+              width: 80px;}		  
+
+.pic22{width: 172px;
+    height: 220px;
+    position: relative;
+    top: -255px;
+    left: 20px;
+    float: left;}
+
+.pic22 h2{color:#FFF;text-decoration:underline}
+
+.pic22 h3{word-wrap:break-word;
+          color:#000;
+		  text-align:left}
+		  
+.pic22 button{margin-left: 10px;
+              background-color: #09c;
+              width: 80px;}		  
+
+.pic33{width: 172px;
+    height: 220px;
+    position: relative;
+    top: -255px;
+    left: 38px;
+    float: left;}
+	
+.pic33 h2{color:#FFF;text-decoration:underline}
+
+.pic33 h3{word-wrap:break-word;
+          color:#000;
+		  text-align:left}
+		  
+.pic33 button{margin-left: 10px;
+              background-color: #09c;
+              width: 80px;}			  
+	  
+	  
+.footr{width:90%;
+       height:90px;
+	   background-color:#000;
+	   position:relative;
+	   top: 291px;
+       left: 69px;}	  
+	   
+	   
+	   
+.footr h2{text-align:center;
+          color:#FFF;
+		  font-size:20px;
+		font-family:Gabriola;
+		position:relative;
+		top: 25px;
+        left: -25px;}
+.footr h3{text-align:center;
+          color:#FFF;
+		  font-size:15px;
+		  font-family:Gabriola;}		    

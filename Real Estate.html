@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Real Estate</title>
+<link rel="icon" href="../khaled eweed3/icn-web.png"/>
+<link rel="stylesheet" href="css/Real Estate.css"/>
+<link rel="stylesheet" href="css/normalize.css"/>
+<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="css/animate.css-master/animate.min.css"/>
+</head>
+
+<body>
+<div class="all">
+<!--======================================================-->
+<div class="header">
+<p>Follow us</p>
+<i class="fa fa-skype fa-2x" aria-hidden="true"></i>
+<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+
+<div class="real">
+<span>Real</span>
+<span class="estate">Estate</span>
+</div>
+</div>
+<!--============================================================-->
+
+<div class="pic">
+
+<div class="home-pic">
+<ul>
+<a href="#1"><li class="home">Home</li></a>
+<a href="#1"><li>Buyling</li></a>
+<a href="#1"><li>Selling</li></a>
+<a href="#1"><li>Renting</li></a>
+<a href="#1"><li>Finance</li></a>
+<a href="#1"><li>Contacts</li></a>
+</ul>
+</div>
+
+</div>
+<!--======================================================-->
+
+<div class="welcome animated bounceInLeft">
+<span id="wel">Welcome messages!</span>
+<br><br>
+<h3>
+Booked in advance but very disappointed. Large hotel in reasonable location but looked very tired and in despirate<br> need of a makeover.</h3>
+ <h3>Corridors were unkept and needed painting. We were given a room on the end of the fifth floor.</h3>
+ <h3>It had balconies on two sides but only one scruffy plastic chair.</h3>
+</div>
+<!--==================================================================================-->
+
+<div class="find animated bounceInRight">
+
+<h1>Find your home</h1>
+<form>
+Choose city...<br>
+<select style="width:350px">
+<option></option>
+<option>usa</option>
+<option>ksa</option>
+<option>egypt</option>
+<option>Algeria</option>
+<option>Angola</option>
+<option>Argentina</option>
+<option>Armenia</option>
+<option>Australia</option>
+<option>Brazil</option>
+<option>Canada</option>
+<option>Alberta</option>
+<option>China</option>
+</select>
+</form><br>
+Write your name...<br>
+<input type="text" style="width:350px"><br><br>
+<form>
+Choose floor...<br>
+<select style="float:left">
+<option></option>
+<option>first floor</option>
+<option>2th floor</option>
+<option>3th floor</option>
+<option>4th floor</option>
+<option>5th floor</option>
+<option>6th floor</option>
+<option>7th floor</option>
+</select>
+<b>The rooms...</b>
+<select class="room">
+<option></option>
+<option>first floor</option>
+<option>2th floor</option>
+<option>3th floor</option>
+<option>4th floor</option>
+<option>5th floor</option>
+<option>6th floor</option>
+<option>7th floor</option>
+</select>
+</form>
+<br><br>
+<input class="in" type="submit" value="Submit">
+
+<!--==================================================================================-->
+
+<h5>Find our office:</h5>
+<img class="map" src="pic/world-map-146505_960_720.png">
+<ul style="float:left">
+<li>Find our office</li>
+<li>Find our office</li>
+<li>Find our office</li>
+</ul>
+<ul style="margin-left:220px">
+<li>Find our office</li>
+<li>Find our office</li>
+<li>Find our office</li>
+</ul>
+</div>
+<!--==================================================================================-->
+<div class="pic3 animated bounceInUp">
+<h1 id="1">Buyers Sellers Proprietors Agents:</h1>
+<img class="img3" src="pic/Attractive-Prefab-Home-Toby-Long_3.jpg">
+<img class="img3" src="pic/carneyloganburke.jpg">
+<img class="img3" src="pic/images.jpg">
+<div class="pic11">
+<h2>Selling:</h2>
+<h3>For over 100 years, Silling Architects has been committed</h3>
+<button>More</button>
+</div>
+<div class="pic22">
+<h2>Selling:</h2>
+<h3>For over 100 years, Silling Architects has been committed</h3>
+<button>More</button>
+</div>
+<div class="pic33">
+<h2>Selling:</h2>
+<h3>For over 100 years, Silling Architects has been committed</h3>
+<button>More</button>
+</div>
+</div>
+<!--==================================================================================-->
+<div class="footr">
+<h2>Designed by Khaled eweed 2017</h2>
+<h3>©All rights reserved..</h3>
+</div>
+
+</div>
+
+<script src="js/jquery-3.1.1.js"></script>
+<script>
+$(document).ready(function(){
+  $('a').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+});
+</script>
+</body>
+</html>
